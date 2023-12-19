@@ -1,4 +1,4 @@
-// Resistor.cpp
+
 #include "Resistor.h"
 #include "Visitor.h"
 

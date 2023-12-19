@@ -133,6 +133,7 @@
     <ClCompile Include="IComponent.cpp" />
     <ClCompile Include="Inductor.cpp" />
     <ClCompile Include="Resistor.cpp" />
+    <ClCompile Include="ShowVisitor.cpp" />
     <ClCompile Include="Visitor.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -141,6 +142,7 @@
     <ClInclude Include="IComponent.h" />
     <ClInclude Include="Inductor.h" />
     <ClInclude Include="Resistor.h" />
+    <ClInclude Include="ShowVisitor.h" />
     <ClInclude Include="Visitor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

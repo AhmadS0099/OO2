@@ -3,12 +3,15 @@
 #include <vector>
 #include "IComponent.h" 
 
+class iterator;
+
 class Circuit
 {
 public:
+    Circuit() {}
+    virtual ~Circuit() {}
+public:
     void add(IComponent* pcomponent);
-
-    class iterator;
 
     iterator begin();
     iterator end();
@@ -20,7 +23,7 @@ private:
 
 
 
-class Circuit::iterator
+class iterator
 {
 public:
     iterator(std::vector<IComponent*>::iterator it);
